@@ -1,0 +1,56 @@
+// MUSIC
+const music = document.getElementById("bgMusic");
+
+document.addEventListener("click", () => {
+    music.play();
+}, { once: true });
+
+
+// SLIDESHOW
+const slides = document.querySelectorAll(".slide");
+
+let currentSlide = 0;
+
+function showSlide(){
+
+    slides.forEach(slide => {
+        slide.classList.remove("active");
+    });
+
+    currentSlide++;
+
+    if(currentSlide >= slides.length){
+        currentSlide = 0;
+    }
+
+    slides[currentSlide].classList.add("active");
+}
+
+setInterval(showSlide, 3000);
+
+
+// FLOATING EMOJIS
+const emojiContainer = document.querySelector(".floating-emojis");
+
+const emojis = ["💖","💓","💕","🎂","🎉","✨","🥰","❤️"];
+
+function createEmoji(){
+
+    const emoji = document.createElement("div");
+
+    emoji.classList.add("emoji");
+
+    emoji.innerHTML = emojis[Math.floor(Math.random()*emojis.length)];
+
+    emoji.style.left = Math.random()*100 + "vw";
+
+    emoji.style.animationDuration = (5 + Math.random()*5) + "s";
+
+    emojiContainer.appendChild(emoji);
+
+    setTimeout(() => {
+        emoji.remove();
+    },10000);
+}
+
+setInterval(createEmoji, 1200);

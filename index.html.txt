@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Princess ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Floating Emojis -->
+    <div class="floating-emojis"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- LEFT SIDE SLIDESHOW -->
+        <div class="slideshow-container">
+
+            <img class="slide active" src="image1.jpg">
+            <img class="slide" src="image2.jpg">
+            <img class="slide" src="image3.jpg">
+            <img class="slide" src="image4.jpg">
+            <img class="slide" src="image5.jpg">
+
+        </div>
+
+        <!-- RIGHT SIDE MESSAGE -->
+        <div class="message-section">
+
+            <h1>Happy Birthday My Princess 👸❤️</h1>
+
+            <div class="message-text">
+
+                <p>
+                    Wish you many many many many many many many raised to n number of times Happy Birthday my Loveee 💓💓😘❤️💗🥺🥺💞
+                </p>
+
+                <p>
+                    Ever since you walked into my life, everything has felt softer, brighter, and infinitely more meaningful...😘😍
+                </p>
+
+                <p>
+                    Jaise suraj ki kirne dheere dheere zameen ko roshan karti hain, bilkul waise hi tum ahista ahista meri duniya ban gayi…
+                    aur mujhe pata bhi nahi chala kab main tumhari taraf itna kheechta chala gaya. 🌸✨
+                </p>
+
+                <p>
+                    And honestly, not once have I regretted loving you with all my heart...🥺💓
+                </p>
+
+                <p>
+                    No matter how difficult life gets, one hug from you makes every worry disappear ❤️
+                </p>
+
+                <p>
+                    The way your lips touch mine still feels like a dream I never want to wake up from…😘😘
+                    and even today, thinking about our first kiss gives me butterflies. 🥺💋❤️😍
+                </p>
+
+                <p>
+                    And haan.. main aaj bhi tumpe ek kavita likhna chahta hoon
+                    Likhna chahta hoon tumhari inn mrignaini see ankhon ke bare me,
+                    jisme rakha paani jo har boond samandar hain and unme basi sare sapne👀 
+                </p>
+
+                <p>
+                    Un sapno ko main kabhi duniya ki choti moti zimmedariyon ke saamne tootne nahi dena chahta.
+                    Bas ek tum ho, ek main hoon… aur hum dono ki ek choti si pyaari duniya hai. 🌍❤️		
+                </p>
+
+                <p>
+                    Kabhi kabhi humara pyaar mujhe kisi tilism se kam nahi lagta…
+                    2 log jo alag alag raaston par chal rahe the, lekin shayad Mahadev ko kuch aur hi manzoor tha. 🍀🔱		
+                </p>
+
+                <p>
+                    Aur jabh humara milna Mahadev ka ek ishara ho tho tah umr mujhe yhe rishta tumhare saat nibhana hain🔱
+                    Shor kaafi hoga duniya bhar me lekin jabh 4 deewaro ke bahar ek tumhare naam ke sath mera naam likha ho.. 
+                    tho maano zindagi mukamal hain❤️❤️		
+                </p>
+
+                <p>
+                    Abhi tho kaafi mohabbat karna hain tumse.. Jitna abhi tak naa kiya ho..🥺💞
+                    Tumhari muskurahat ko hamesha kayam rakhna hain..😁		
+                </p>
+
+                <p>
+                    Haan kabhi bech bech me pareshan karta rahonga tumhe jo meri aadat hain
+                    Par aaj bhi ek tumhe ho, jo mujhe mujhse zyada janti ho🙈
+                    Kyunki kuch aur he socha tha Dil harne se pahle par tum aise he tho achi ho 😘😘
+
+                </p>
+
+                <p>
+                    Sometimes I wonder if I’ll truly be able to fulfill every dream and wish you have…
+                    But one thing I promise is that I’ll spend my entire life trying my best for you. 🥺❤️
+                </p>
+
+                <p>
+                    I Lovee you the most in this entire universe and beyond my Angel 😘💓
+                </p>
+
+                <p>
+                    Once again, a very Happy Birthday to the love of my life 🎂💗💞❤️
+                    May God bless you with endless happiness, love, success, and every beautiful thing your heart desires. 🎂💗💞❤️
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
